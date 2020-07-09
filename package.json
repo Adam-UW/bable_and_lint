@@ -6,14 +6,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adam-UW/bable_and_lint.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adam-UW/bable_and_lint/issues"
+  },
+  "homepage": "https://github.com/Adam-UW/bable_and_lint#readme",
   "dependencies": {
     "aws4": "^1.10.0",
     "awscred": "^1.5.0",
     "axios": "^0.19.2",
     "chance": "^1.1.6",
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "serverless-pseudo-parameters": "^2.5.0"
   }
 }
